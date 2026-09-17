@@ -1,0 +1,55 @@
+site_name: FlameOptics Inventory
+site_description: Setup guides and developer reference for FlameOptics Inventory for QBCore.
+site_author: FlameOptics
+copyright: FlameOptics · QBCore attribution retained in Credits
+strict: true
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  font: false
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    scheme: slate
+    primary: custom
+    accent: blue
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+extra_css:
+  - assets/theme.css
+nav:
+  - Overview: index.md
+  - Getting started:
+      - Installation: installation.md
+      - Configuration: configuration.md
+      - Items: items.md
+  - Guides:
+      - Backpacks and equipment: guides/equipment.md
+      - Vehicle storage and weapon racks: guides/vehicles.md
+      - Animations: guides/animations.md
+  - Functions:
+      - Server: functions/server.md
+      - Client: functions/client.md
+  - Troubleshooting: troubleshooting.md
+  - Credits: credits.md
+  - Publishing these docs: publishing.md
