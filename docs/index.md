@@ -1,34 +1,35 @@
-# FlameOptics Inventory
+---
+title: Resources
+---
 
-Inventory, equipment, and vehicle storage for QBCore.
+<div class="bp-hero" markdown>
+<div markdown>
+<span class="bp-eyebrow">BluePeak Development / Documentation</span>
 
-A dark inventory interface with persistent backpacks, armor durability, a protected sixth slot, and job-restricted weapon racks. Created and maintained for this custom release by **FlameOptics**.
+# Your resources. Ready to run.
 
-[Install the resource](installation.md){ .md-button .md-button--primary }
-[Server functions](functions/server.md){ .md-button }
+Installation guides and developer references for BluePeak resources.
+{ .bp-lead }
 
-## Start here
+Choose your resource to find its requirements, installation steps, configuration, and integration examples.
 
-| I want to… | Guide |
-| --- | --- |
-| Set up a server | [Installation](installation.md) |
-| Change weights, jobs or controls | [Configuration](configuration.md) |
-| Register backpacks and equipment | [Items](items.md) |
-| Integrate a stash, shop or usable item | [Server functions](functions/server.md) |
-| Check items from client code | [Client functions](functions/client.md) |
-| Diagnose an issue | [Troubleshooting](troubleshooting.md) |
+[Browse guides](guides.md){ .md-button }
 
-## Resource identity
+</div>
+<img src="assets/bluepeak-logo.png" alt="BluePeak Development — Premium FiveM Resources" width="210" height="210">
+</div>
 
-Keep the resource folder named `qb-inventory`. All examples use that name. This is a QBCore resource with its own API; ox_inventory exports are not interchangeable with these exports.
+## Resources
 
-## What is included
+<div class="bp-cards">
+<a class="bp-card" href="inventory/"><span class="bp-tag">QBCore</span><strong>Inventory →</strong><span>Player inventory, persistent backpacks, equipment, and vehicle storage. Setup guides and a complete public API reference.</span></a>
+</div>
 
-- Configurable pockets, stashes, shops, item drops and attachments.
-- Backpacks with persistent IDs and server-side nesting prevention.
-- Armor equipment and a protected slot bound to key 6.
-- Five-slot gloveboxes, forty-slot trunks and vehicle weight overrides.
-- Weapon racks under gloveboxes for configured jobs.
+## Find what you need
 
-Read the [credits and license](credits.md) before redistributing. The [publishing guide](publishing.md) explains how to host these docs on GitHub Pages.
+- **Installing a purchase?** Open your resource and start with its installation guide.
+- **Changing how it works?** Review the configuration and gameplay guides for that resource.
+- **Building an integration?** Find export signatures and examples under Functions.
+- **Need help with setup?** Check the resource's Common issues page.
 
+Use the sidebar to browse a resource, or search across the documentation from the top of any page.

@@ -39,6 +39,18 @@ Generated files go into `site/`. Do not edit generated HTML; edit the Markdown u
 
 Check signatures and return values against the Lua source whenever changing exports. Client helpers are not a replacement for server authorization. Rebuild with `--strict` before publishing to catch broken documentation links.
 
+## Fix missing Inventory pages in GitHub Actions
+
+If the build reports that `inventory/index.md`, `guides.md`, and the other Inventory pages are missing, the repository has the new navigation configuration with the old documentation files. Uploading only `mkdocs.yml` does not include moved or newly created pages.
+
+Replace the repository's `docs/` folder with the complete current `docs/` folder, and upload `mkdocs.yml` from the same version. The repository root must contain `docs/guides.md` and `docs/inventory/index.md`, with all Inventory installation, configuration, function, guide, and download files under `docs/inventory/`. Avoid nesting the project inside an extra folder.
+
+Remove the obsolete root-level Inventory pages and the old `docs/functions/`, `docs/guides/`, and `docs/downloads/` folders after their replacements are present under `docs/inventory/`. Publishing instructions now live in `PUBLISHING.md` at the repository root, not in `docs/publishing.md`.
+
+When using Git, stage the complete migration with `git add -A`, review it, then commit and push. When uploading through GitHub's website, extract the source ZIP first and upload its contents; uploading the ZIP itself will not update the site files. Include the hidden `.github/` folder if creating a new repository.
+
+Run the Documentation workflow against the updated commit. Re-running the old failed job uses the old files and will fail again. Keep strict mode enabled; the fix is to supply the missing files.
+
 
 ## Add another resource
 
