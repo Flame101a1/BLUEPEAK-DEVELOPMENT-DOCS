@@ -1,24 +1,25 @@
-site_name: FlameOptics Inventory
-site_description: Setup guides and developer reference for FlameOptics Inventory for QBCore.
-site_author: FlameOptics
-copyright: FlameOptics · QBCore attribution retained in Credits
+site_name: BluePeak Docs
+site_description: Installation guides, configuration, and developer references for BluePeak Development resources.
+site_author: BluePeak Development
+copyright: BluePeak Development · Resource credits and license preserved in Credits
 strict: true
 docs_dir: docs
 site_dir: site
 theme:
   name: material
   font: false
-  logo: assets/logo.svg
-  favicon: assets/logo.svg
+  logo: assets/bluepeak-logo.png
+  favicon: assets/bluepeak-logo.png
   palette:
     scheme: slate
     primary: custom
     accent: blue
   features:
-    - navigation.sections
-    - navigation.expand
+    - navigation.indexes
     - navigation.top
     - navigation.footer
+    - navigation.tracking
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -35,21 +36,26 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.superfences
   - pymdownx.details
+  - md_in_html
+extra:
+  generator: false
 extra_css:
   - assets/theme.css
 nav:
-  - Overview: index.md
-  - Getting started:
-      - Installation: installation.md
-      - Configuration: configuration.md
-      - Items: items.md
-  - Guides:
-      - Backpacks and equipment: guides/equipment.md
-      - Vehicle storage and weapon racks: guides/vehicles.md
-      - Animations: guides/animations.md
-  - Functions:
-      - Server: functions/server.md
-      - Client: functions/client.md
-  - Troubleshooting: troubleshooting.md
-  - Credits: credits.md
-  - Publishing these docs: publishing.md
+  - Resources: index.md
+  - Guides: guides.md
+  # Add each new resource as a sibling of Inventory, with its own docs folder.
+  - Inventory:
+      - Overview: inventory/index.md
+      - Installation: inventory/installation.md
+      - Configuration: inventory/configuration.md
+      - Items: inventory/items.md
+      - Common issues: inventory/troubleshooting.md
+      - Functions:
+          - Client: inventory/functions/client.md
+          - Server: inventory/functions/server.md
+      - Guides:
+          - Backpacks and equipment: inventory/guides/equipment.md
+          - Vehicle storage and weapon racks: inventory/guides/vehicles.md
+          - Animations: inventory/guides/animations.md
+      - Credits: inventory/credits.md
