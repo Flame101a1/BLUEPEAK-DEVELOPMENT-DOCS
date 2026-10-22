@@ -1,4 +1,5 @@
-site_name: BluePeak Docs
+site_name: BluePeak Documentation
+site_url: https://flame101a1.github.io/BLUEPEAK-DEVELOPMENT-DOCS/
 site_description: Installation guides, configuration, and developer references for BluePeak Development resources.
 site_author: BluePeak Development
 copyright: BluePeak Development · Resource credits and license preserved in Credits
@@ -7,6 +8,7 @@ docs_dir: docs
 site_dir: site
 theme:
   name: material
+  custom_dir: overrides
   font: false
   logo: assets/bluepeak-logo.png
   favicon: assets/bluepeak-logo.png
@@ -59,3 +61,4 @@ nav:
           - Vehicle storage and weapon racks: inventory/guides/vehicles.md
           - Animations: inventory/guides/animations.md
       - Credits: inventory/credits.md
+
