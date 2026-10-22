@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Installation
 
 ## Requirements
@@ -54,3 +59,4 @@ ensure qb-shops
 - If upgrading from the old separate `gloveboxitems`, `stashitems`, and `trunkitems` tables, inspect and run [migrate.sql](downloads/migrate.sql) **once**, after creating/upgrading `inventories`. It assumes all three old tables exist and can conflict with identifiers already migrated. Keep the old tables until you have verified the migration.
 - Preserve existing configuration values when merging an update. Do not change `ProtectedSlot` or utility slot offsets after players have stored items without migrating their data.
 - Reducing a storage slot limit does not relocate existing items. Inspect legacy gloveboxes and trunks for occupied slots beyond the new 5/40 limits before release; move those items while their old slot limits are still active.
+

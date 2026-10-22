@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Backpacks and equipment
 
 ## Backpacks
@@ -20,3 +25,4 @@ The bottom slot marked **6** supports normal owner use, moving, dropping, and gi
 By default, jobs `police`, `sheriff`, `bcso`, and `fib`, and jobs with type `leo`, can access it during existing player searches. This exception does not grant a search command by itself.
 
 Equipping armor moves one piece from a stack and tracks its durability independently. The vest slot remains visible beneath the inventory. Check for conflicting armor logic in other resources during integration.
+

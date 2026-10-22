@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Server functions
 
 Call these exports from **server scripts**. Resource name: `qb-inventory`. Quantities use `amount`, item metadata uses `info`, and weights are in grams.
@@ -575,3 +580,4 @@ exports['qb-inventory']:RemoveDrop(dropId)
 ## Internal helpers
 
 Weapon-rack access, protected-slot authorization and backpack opening helpers are internal Lua functions, not public exports. Configure those systems through the documented settings instead of calling internal network events.
+

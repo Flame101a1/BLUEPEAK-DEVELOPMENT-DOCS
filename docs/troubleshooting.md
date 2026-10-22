@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Troubleshooting
 
 
@@ -14,3 +19,4 @@ When reporting a problem, include reproduction steps, relevant F8/server errors,
 ## Release verification
 
 Before enabling on a public server, test with two players: item transfers, shop payment, trunk and glovebox persistence, backpack persistence and nesting prevention, armor durability, protected-slot police/civilian access, weapon-rack job restrictions, and saving across a server restart. Local syntax or browser checks do not replace an in-game integration test.
+

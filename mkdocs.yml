@@ -18,6 +18,7 @@ theme:
     accent: blue
   features:
     - navigation.indexes
+    - navigation.expand
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -44,21 +45,20 @@ extra:
 extra_css:
   - assets/theme.css
 nav:
-  - Resources: index.md
-  - Guides: guides.md
-  # Add each new resource as a sibling of Inventory, with its own docs folder.
+  - Documentation: index.md
+  - Guides & references: guides.md
   - Inventory:
       - Overview: inventory/index.md
-      - Installation: inventory/installation.md
-      - Configuration: inventory/configuration.md
-      - Items: inventory/items.md
-      - Common issues: inventory/troubleshooting.md
-      - Functions:
-          - Client: inventory/functions/client.md
-          - Server: inventory/functions/server.md
-      - Guides:
-          - Backpacks and equipment: inventory/guides/equipment.md
-          - Vehicle storage and weapon racks: inventory/guides/vehicles.md
+      - Getting started:
+          - Installation: inventory/installation.md
+          - Configuration: inventory/configuration.md
+          - Item definitions: inventory/items.md
+      - Gameplay guides:
+          - Backpacks & equipment: inventory/guides/equipment.md
+          - Vehicle storage & weapon racks: inventory/guides/vehicles.md
           - Animations: inventory/guides/animations.md
-      - Credits: inventory/credits.md
-
+      - API reference:
+          - Server functions: inventory/functions/server.md
+          - Client functions: inventory/functions/client.md
+      - Troubleshooting: inventory/troubleshooting.md
+      - Credits & license: inventory/credits.md

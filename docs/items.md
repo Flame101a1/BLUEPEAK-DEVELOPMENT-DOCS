@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Item definitions
 
 ## Item setup
@@ -22,4 +27,5 @@ Item instances use `amount`, `slot` and `info`. Shared item definitions use `wei
 local info = { quality = 100, note = 'Issued equipment' }
 local added = exports['qb-inventory']:AddItem(source, 'water_bottle', 1, false, info, 'example')
 ```
+
 

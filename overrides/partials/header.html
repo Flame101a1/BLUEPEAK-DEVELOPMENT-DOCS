@@ -1,0 +1,10 @@
+<header class="md-header" data-md-component="header">
+<nav class="md-header__inner md-grid" aria-label="Header">
+<label class="md-header__button md-icon" for="__drawer" aria-label="Open documentation navigation">{% include ".icons/material/menu.svg" %}</label>
+<a class="bp-header-brand" href="{{ config.site_url }}" aria-label="BluePeak documentation home"><img src="{{ 'assets/bluepeak-logo.png' | url }}" alt="" width="52" height="52"><span><strong>BLUEPEAK <b>DEVELOPMENT</b></strong><small>DOCUMENTATION</small></span></a>
+{% if "material/search" in config.plugins %}
+<label class="md-header__button md-icon" for="__search" aria-label="Search documentation">{% include ".icons/material/magnify.svg" %}</label>
+{% include "partials/search.html" %}
+{% endif %}
+<a class="bp-back-store" href="https://bluepeakdevelopment.store/">Visit the store ↗</a>
+</nav></header>

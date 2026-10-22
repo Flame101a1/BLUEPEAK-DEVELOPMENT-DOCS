@@ -1,11 +1,8 @@
 {% extends "base.html" %}
-{% block header %}
-<div class="bp-utility"><div class="bp-shell"><span><i></i>Premium FiveM Resources</span><a href="https://discord.gg/8EbAp7rgbB">Join our community ↗</a></div></div>
-<div class="bp-masthead"><div class="bp-shell"><a class="bp-brand" href="https://bluepeakdevelopment.store/"><img src="{{ 'assets/bluepeak-logo.png' | url }}" alt="BluePeak Development" width="62" height="62"><span><strong>BLUEPEAK <b>DEVELOPMENT</b></strong><small>PREMIUM FIVEM RESOURCES</small></span></a><a class="bp-store-button" href="https://bluepeakdevelopment.store/">Explore the store <span>↗</span></a></div></div>
-<nav class="bp-site-nav" aria-label="BluePeak website"><div class="bp-shell"><a href="https://bluepeakdevelopment.store/">Home</a><a href="https://bluepeakdevelopment.store/#/catalog">Resources</a><a class="bp-current" aria-current="location" href="{{ config.site_url }}">Documentation</a><a href="https://bluepeakdevelopment.store/#/faq">FAQ</a><a href="https://bluepeakdevelopment.store/#/support">Support & community ↗</a></div></nav>
-{{ super() }}
+{% block tabs %}
+<nav class="bp-global" aria-label="BluePeak website"><div class="bp-shell"><a class="bp-doc-active" href="{{ config.site_url }}" aria-current="location">Documentation</a><a href="https://bluepeakdevelopment.store/#/resources">All resources ↗</a><a href="https://bluepeakdevelopment.store/#/about">About BluePeak ↗</a><a href="https://bluepeakdevelopment.store/#/faq">FAQ ↗</a><a href="https://bluepeakdevelopment.store/#/support">Get support ↗</a></div></nav>
 {% endblock %}
 {% block footer %}
-<div class="bp-site-footer"><div class="bp-shell"><div><a class="bp-footer-brand" href="https://bluepeakdevelopment.store/">BLUEPEAK <span>DEVELOPMENT</span></a><p>Installation guides, configuration, and developer references for your BluePeak resources.</p></div><div><strong>Explore</strong><a href="https://bluepeakdevelopment.store/">Storefront ↗</a><a href="{{ 'guides/' | url }}">Documentation guides</a></div><div><strong>Get in touch</strong><a href="https://discord.gg/8EbAp7rgbB">Discord community ↗</a><a href="https://bluepeakdevelopment.store/#/support">Support & community ↗</a></div></div></div>
 {{ super() }}
+<div class="bp-footer"><div class="bp-shell"><div><strong>BLUEPEAK <span>DEVELOPMENT</span></strong><p>Premium FiveM resources.<br>Documentation for the communities that make FiveM their own.</p></div><div><strong>RESOURCES</strong><a href="{{ 'inventory/' | url }}">Inventory documentation</a><a href="{{ 'guides/' | url }}">Guides & references</a><a href="https://bluepeakdevelopment.store/#/resources">Explore the store ↗</a></div><div><strong>LET’S CONNECT</strong><a href="https://discord.gg/8EbAp7rgbB">Discord community ↗</a><a href="https://bluepeakdevelopment.store/#/support">Support ↗</a><a href="https://bluepeakdevelopment.store/#/faq">Frequently asked questions ↗</a></div></div></div>
 {% endblock %}

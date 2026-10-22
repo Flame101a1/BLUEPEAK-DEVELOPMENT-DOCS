@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Animations
 
 Edit `Config.InventoryAnimations` in `config/config.lua`. `Resource = 'auto'` detects `rpemotes` and `rpemotes-reborn`; set a resource name explicitly for a renamed installation.
@@ -21,4 +26,5 @@ OpeningProgress = {
 ## Compatibility
 
 Existing emotes and player-state guards can suppress action animations. Verify configured emote names against your installed version. The resource does not require an external throw/place integration for nearby item giving.
+
 

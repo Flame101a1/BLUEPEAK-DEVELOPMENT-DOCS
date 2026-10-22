@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Publish on GitHub Pages
 
 ## Upload the documentation project
@@ -38,4 +43,5 @@ Generated files go into `site/`. Do not edit generated HTML; edit the Markdown u
 ## Keep the reference accurate
 
 Check signatures and return values against the Lua source whenever changing exports. Client helpers are not a replacement for server authorization. Rebuild with `--strict` before publishing to catch broken documentation links.
+
 

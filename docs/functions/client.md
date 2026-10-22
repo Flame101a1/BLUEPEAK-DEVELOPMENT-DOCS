@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Client functions
 
 Client exports support presentation and local checks. Perform authorization and item grants on the server.
@@ -37,3 +42,4 @@ The check uses individual matching stacks rather than aggregating a required qua
 Use the normal inventory keybinding or `ExecuteCommand('openInv')` for the ordinary opening path. Custom stash and shop opening belongs in a server integration using [OpenInventory](server.md#openinventory) or [OpenShop](server.md#openshop).
 
 There is no exported client `OpenInventory` function in this resource.
+

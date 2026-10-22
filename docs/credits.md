@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Credits and license
 
 **Custom release creator and maintainer: FlameOptics**
@@ -33,4 +38,5 @@ Existing item images and streamed assets are retained as supplied. This release 
 ## Documentation
 
 The navigation and API-reference organization were inspired by the [Overextended server reference](https://overextended.dev/docs/ox_inventory/Functions/Server). Content and examples describe this resource. The site uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/); it is not affiliated with Overextended.
+
 

@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Configuration
 
 ## Configuration
@@ -34,3 +39,4 @@ All capacities use **grams**: `1000` = 1 kg. Restart the resource after changing
 | qb-target at an unlocked trunk | Open trunk storage |
 
 FiveM saves custom keybindings per player; changes to defaults may require updating the player's keybinding settings.
+
