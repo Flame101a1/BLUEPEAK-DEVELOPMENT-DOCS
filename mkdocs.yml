@@ -43,7 +43,7 @@ markdown_extensions:
 extra:
   generator: false
 extra_css:
-  - assets/theme.css
+  - assets/theme.css?v=20261022-contours
 nav:
   - Documentation: index.md
   - Guides & references: guides.md
@@ -62,4 +62,5 @@ nav:
           - Client functions: inventory/functions/client.md
       - Troubleshooting: inventory/troubleshooting.md
       - Credits & license: inventory/credits.md
+
 
