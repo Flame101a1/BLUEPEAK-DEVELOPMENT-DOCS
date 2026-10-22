@@ -2,6 +2,8 @@
 title: Resources
 ---
 
+<img class="bp-banner" src="assets/bluepeak-hero.png" alt="BluePeak Development — Premium FiveM Resources">
+
 <div class="bp-hero" markdown>
 <div markdown>
 <span class="bp-eyebrow">BluePeak Development / Documentation</span>
@@ -13,6 +15,7 @@ Installation guides and developer references for BluePeak resources.
 
 Choose your resource to find its requirements, installation steps, configuration, and integration examples.
 
+[Explore Inventory](inventory/index.md){ .md-button .md-button--primary }
 [Browse guides](guides.md){ .md-button }
 
 </div>
@@ -23,6 +26,7 @@ Choose your resource to find its requirements, installation steps, configuration
 
 <div class="bp-cards">
 <a class="bp-card" href="inventory/"><span class="bp-tag">QBCore</span><strong>Inventory →</strong><span>Player inventory, persistent backpacks, equipment, and vehicle storage. Setup guides and a complete public API reference.</span></a>
+<a class="bp-card" href="guides/"><span class="bp-tag">Documentation</span><strong>Guides →</strong><span>Setup instructions, configuration, gameplay guides, and integration references for your BluePeak resources.</span></a>
 </div>
 
 ## Find what you need
@@ -33,3 +37,6 @@ Choose your resource to find its requirements, installation steps, configuration
 - **Need help with setup?** Check the resource's Common issues page.
 
 Use the sidebar to browse a resource, or search across the documentation from the top of any page.
+
+
+
