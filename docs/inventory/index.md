@@ -43,5 +43,6 @@ Keep the resource folder named **`qb-inventory`**. All integration examples use 
 
 New to the resource? Start with [Installation](installation.md), then register your [items](items.md). For a specific issue, visit [Troubleshooting](troubleshooting.md).
 
-The custom inventory release is credited to **FlameOptics**. See [Credits and license](credits.md) for project attribution and redistribution terms.
+Created and maintained by **FlameOptics / BluePeak Development**. See [Credits and license](credits.md) for ownership information and the distributed license document.
+
 

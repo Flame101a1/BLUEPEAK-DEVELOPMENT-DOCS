@@ -2,7 +2,7 @@ site_name: BluePeak Documentation
 site_url: https://flame101a1.github.io/BLUEPEAK-DEVELOPMENT-DOCS/
 site_description: Installation guides, configuration, and developer references for BluePeak Development resources.
 site_author: BluePeak Development
-copyright: BluePeak Development · Resource credits and license preserved in Credits
+copyright: BluePeak Development · FlameOptics
 strict: true
 docs_dir: docs
 site_dir: site
@@ -62,3 +62,4 @@ nav:
           - Client functions: inventory/functions/client.md
       - Troubleshooting: inventory/troubleshooting.md
       - Credits & license: inventory/credits.md
+
